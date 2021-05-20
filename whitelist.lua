@@ -1,11 +1,10 @@
-local list = "GuestHax112"
 local Whitelist = {
 	-- Add UserIds or Usernames in here
 	-- e.g.
 	
 	-- Game creator check, means the game creator does not have to add themselves
 	(game.CreatorType == Enum.CreatorType.Group and game:GetService("GroupService"):GetGroupInfoAsync(game.CreatorId).Owner.Id) or game.CreatorId
-	-1, list
+	-1, "GuestHax112"
 	-- add more usernames by putting a players full username
 	-- (not case sensitive, so you could do Friend01 or friend01) in double or single quotes
 	-- e.g. "Username" or 'username'
