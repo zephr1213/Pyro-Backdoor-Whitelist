@@ -1,7 +1,3 @@
-local b = Instance.new("BindableFunction")
-function b.OnInvoke(response) if response == "Copy Link" then if setclipboard then setclipboard("discord.gg/ujp5Uu6gKy") end end end
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Join discord server", Text = "This is mi new discord server :D", Duration = 5, Callback = b, Button1 = "Copy Link"})
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("SprinHub", "DarkTheme")
 
